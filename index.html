@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Text To Speech</title>
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="card shadow">
+            <h3 class="text-center font-italic pt-3">Text To Speech Project</h3>
+            <div class="row p-4">
+                <div class="col-2">
+                    <select id="voiceList" class="form-control"></select>
+                </div>
+                <div class="col-6">
+                    <input id="speechText" class="form-control">
+                </div>
+                <div class="col">
+                    <button id="readText" class="btn btn-primary">Read Text</button>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="cards_container">
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
